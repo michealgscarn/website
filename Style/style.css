@@ -41,24 +41,35 @@ th{
   top: 0;
   width: 100%;
   z-index: 1;
+  transition: 0.2s;
+  height:50px;
+  box-shadow: 10px,10px,50px,grey;
+}
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   transition: 1s;
-
+    text-align: center;
+    padding:10px;
 }
 /*Navigation Bar Link*/
-#navbar a {
-  float: right;
-  font-size: 15px;
+.navbar a {
+  font-size: 18px;
   color: white;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition:0.6s;
+  transition:0.3s;
+  font-family: monospace;
 }
 /*Navigation Bar Hover Color*/
-#navbar a:hover {
+.navbar a:hover {
   color:rgb(231, 186, 65);
   font-weight: 500;
   text-shadow:  10px 10px rgb(0, 5, 39);
+  text-decoration: none;
 }
 /*Top Section*/
 .homeTop {
@@ -207,10 +218,12 @@ p{
   .sponsorImage{
     vertical-align: middle;
     padding: 30px;
-  }
-  .infoRow a:hover {
-    opacity: 85%;
     transition: 0.25s;
+    opacity: 80%;
+  }
+  .sponsorImage:hover {
+    opacity: 100%;
+    transform: scale(1.03);
   }
 
 /*------------------------------------------------ALIGNMENT------------------------------------------------*/
@@ -243,9 +256,17 @@ p{
   }
 
 /*------------------------------------------------SLIDESHOW-------------------------------------------------*/
+.mySlides img:hover{
+    transform: scale(1.05);
+}
+.mySlides img{
+    transition: 0.5s;
+}
 
-
-.mySlides {display: none}
+.mySlides {
+  display: none;
+  transition: 1s;
+}
 /* Slideshow container */
 .slideshow-container {
   width: 70%;
@@ -254,6 +275,10 @@ p{
     margin-right: auto;
     overflow: hidden;
     margin-top: 50px;
+    box-shadow: 10px,10px,50px,grey;
+    transition: 0.5s;
+}
+.slideshow-container:hover {
     box-shadow: 10px,10px,50px,grey;
 }
 /* Next & previous buttons */
