@@ -5,7 +5,6 @@
 /*                                                                                                        */
 /*                        Screen Checker: Checks If Elements are on Screen                                */
 /*                                    Counter: Count Up Animation                                         */
-/*              Navbar Display: Slides In and out Navbar based on Screen Scrolling Up or Down             */
 /*                                                                                                        */
 /*--------------------------------------------------------------------------------------------------------*/
 
@@ -57,28 +56,13 @@ observer.observe(document.getElementById('firstBlock'));  // Create an observer 
 observer.observe(document.getElementById('secondBlock')); // Create an observer for 24
 observer.observe(document.getElementById('thirdBlock'));  // Create an observer for 16
 
-
-
-/*----------------------------------------Navbar Display---------------------------------------------------*/
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
 /*------------------------------------------TESTING--------------------------------------------------------*/
-// When the user scrolls down 20px from the top of the document, slide down the navbar
-window.onscroll = function() {scrollFunction()};
-    document.getElementById("navbar").style.opacity = "0";
-function scrollFunction() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("navbar").style.opacity = "0.9";
-  } else {
-    document.getElementById("navbar").style.opacity = "0";
-  }
+
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
 }

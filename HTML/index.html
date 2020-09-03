@@ -135,6 +135,16 @@
             <a href="https://www.yaskawa.com/"><img class="sponsorImage"height=60px src="https://www.ibtinc.com/wp-content/uploads/2019/06/YASKAWA-logo-blue.png"></a>
           </center>
         </div>
+        <div id="overlay" onclick="off()">
+          <div id="text">Overlay Text</div>
+        </div>
+
+
+        <div style="padding:20px">
+          Overlay with Text
+          <button onclick="on()">Turn on overlay effect</button>
+        </div>
+
 
         <div class="slideshow-container">
 
@@ -159,15 +169,13 @@
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 <a loadImage(1)></a>
-
+                <div style="text-align:center">
+                  <span class="dot"  onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
               </div>
               <br>
-
-              <div style="text-align:center">
-                <span class="dot"  onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-              </div>
 
               <div class="footer">
                 <table class="center">
@@ -201,8 +209,10 @@
                 <a href="community.html"style="text-align:center">Community Outreach</a>
                 <a href="about.html"style="text-align:center">About Us</a>
 <!--                <a href=""><img src="..\Images\Vex Logo Crown PNG.png"class="slideInAnimation"width="30px"></a>-->
+                <a href="vex.html"style="text-align:center">About Vex</a>
               </div>
 
               <script src="..\JavaScript\Script.js"></script>
               <script src="..\JavaScript\SlideShow.js"></script>
+              <script src="..\JavaScript\Navbar.js"></script>              
 </html>
