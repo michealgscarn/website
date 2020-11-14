@@ -15,7 +15,7 @@ window.onscroll = function() {scrollFunction()};
     document.getElementById("navbar").style.opacity = "0";
 function scrollFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    document.getElementById("navbar").style.opacity = "0.9";
+    document.getElementById("navbar").style.opacity = "1";
   } else {
     document.getElementById("navbar").style.opacity = "0";
   }
