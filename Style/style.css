@@ -203,11 +203,11 @@ p{
   h1{
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:#ec9718;
+    color:goldenrod;
   }
   /*Section Header*/
   h2{
-    color:#e0dd00;
+    color:rgb(255, 194, 38);
     font-weight: 900;
     font-size: 40px;
     -webkit-text-stroke-color: rgb(170, 170, 0);
