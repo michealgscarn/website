@@ -19,6 +19,7 @@
 
  ::selection {
    background: rgb(102, 204, 255);
+   color:blue;
 }
 
 img::selection {
