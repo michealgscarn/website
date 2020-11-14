@@ -269,10 +269,10 @@ p{
   }
 
 /*------------------------------------------------SLIDESHOW-------------------------------------------------*/
-.mySlides img:hover{
+.homeSlides img:hover{
     transform: scale(1.05);
 }
-.mySlides img{
+.homeSlides img{
     transition: 0.5s;
 }
 
