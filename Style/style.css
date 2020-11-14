@@ -189,7 +189,7 @@ height:311px;
 
 /*----------------------------------------------TEXT-------------------------------------------------------*/
 /*Normal Text*/
-p{
+p, li{
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: rgb(0, 0, 0);
   font-weight:100;
