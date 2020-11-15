@@ -36,7 +36,7 @@ body {
 /*Side text Table*/
 table{
   padding: 0px;
-  width:100%
+  width:100%;
 }
 /*Side Text Cell*/
 th{
@@ -213,6 +213,16 @@ p, li{
   }
   /*Top Spacing*/
   h3{font-size: 14px;}
+
+  h6{
+    color:rgb(60, 80, 255);
+    font-weight: 900;
+    font-size: 40px;
+    -webkit-text-stroke-color: rgb(30, 50, 255);
+    padding:0;
+    margin-top:0;
+    margin-bottom:0;
+  }
   /*Text Devider*/
   hr {
     height:6px;
