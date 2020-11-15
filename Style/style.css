@@ -168,7 +168,10 @@ height:311px;
  max-width: 50%;
 }
 .sideTextImage{
-
+  position: fixed;
+  padding: 50vh 50vw;
+  background: url(http://lorempixel.com/1500/1000/city/Dummy-Text) no-repeat;
+  background-size: cover;
   width: 40%;
 }
 /*Footer*/
