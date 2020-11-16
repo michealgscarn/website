@@ -168,11 +168,10 @@ height:311px;
  max-width: 50%;
 }
 .sideTextImage{
-  position: fixed;
-  padding: 50vh 50vw;
-  background: url(http://lorempixel.com/1500/1000/city/Dummy-Text) no-repeat;
+  background-position: fixed;
+  background-position-x: 55%;
   background-size: cover;
-  width: 40%;
+  background-image: url("../Images/aboutUsThumbnail.JPG");
 }
 /*Footer*/
 .footer {
@@ -187,6 +186,19 @@ height:311px;
 /*Footer Tile*/
 .footerTile {
   width:33%;
+
+}
+
+/*----------------------------------------------Media Image-----------------------------------------------*/
+
+.mediaContainer{
+  height:300px;
+  width:300px;
+  overflow: hidden;
+}
+.mediaImage{
+  height:300px;
+  float:middle;
 
 }
 
