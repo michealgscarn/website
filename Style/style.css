@@ -127,7 +127,7 @@ height:311px;
 /*Title At Top*/
 .topTag {
   max-width: 1700px;
-  height: 514px;
+  height: 100%;
   padding-top: 0px;
   text-align: center;
   padding: 97px;
@@ -496,6 +496,20 @@ body {
   padding: 0 4px;
 }
 
+.column2 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  text-align: justify;
+
+}
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
 .column img {
   margin-top: 8px;
   vertical-align: middle;
@@ -504,8 +518,15 @@ body {
     transition: 0.2s;
 }
 
-.column img:hover {
+.column img:hover  {
   box-shadow: 5px 5px 10px #aaaaaa;
+  width:102%;
+}
+.coolImage {
+  transition: 0.5s;
+}
+.coolImage:hover {
+    box-shadow: 5px 5px 5px #EEEEEE  ;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -524,4 +545,34 @@ body {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+
+.containerImage {
+  position: relative;
+
+}
+.overlayText {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 102%;
+  transition: .1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.overlayDate {
+  font-size:15px;
+}
+.containerImage:hover .overlayText {
+  opacity: 1;
+}
+
+b dt {
+  text-align: center;
 }
