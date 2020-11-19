@@ -84,6 +84,7 @@ th{
   text-shadow:  10px 10px rgb(0, 5, 39);
   text-decoration: none;
 }
+
 /*Top Section*/
 .homeTop {
   width: 100%;
@@ -292,6 +293,8 @@ p, li{
     text-decoration: underline;
     text-decoration-color: white;
   }
+
+  
 
 /*------------------------------------------------SLIDESHOW-------------------------------------------------*/
 .homeSlides img:hover{
