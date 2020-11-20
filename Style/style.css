@@ -279,18 +279,27 @@ p, li{
       margin-right: 0px;
   }
 /*Link to a Website*/
-  .link {
+  .link{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
+  p a {
+    transition:0.2s;
+  }
+  p a:visited {
+    color:rgb(90, 130, 255);
+  }
+  p a:hover {
+    color: goldenrod;
+  }
+
 /*Link without hover*/
   a {
     text-decoration: none;
   }
 /*Hover Temperature*/
   a:hover {
-    text-decoration: underline;
     text-decoration-color: white;
   }
 
