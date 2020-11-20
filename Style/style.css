@@ -294,7 +294,7 @@ p, li{
     text-decoration-color: white;
   }
 
-  
+
 
 /*------------------------------------------------SLIDESHOW-------------------------------------------------*/
 .homeSlides img:hover{
@@ -576,6 +576,19 @@ body {
   opacity: 1;
 }
 
-b dt {
+dt {
   text-align: center;
+}
+
+dd {
+  text-align: center;
+}
+
+.resourcesTiles {
+  width:100%;
+  border:solid;
+  border-color:rgb(200, 200, 200);
+  border-width:2px;
+  margin:0;
+  box-shadow: 10px,10px,50px,grey;
 }
