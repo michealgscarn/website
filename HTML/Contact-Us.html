@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="..\JavaScript\Contact.js"></script>
 <!-- - - - - - - - - - - - - - - - - - - - - REFRENCES - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <!--Style-->
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../Style/style.css">
+  <link rel="stylesheet" href="../Style/forumStyle.css">
 <!--000webhost Watermark Removal-->
   <style>
   img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
@@ -13,7 +16,7 @@
   }
   </style>
 <!--Tab Stuff-->
-  <title>Tips and Tricks</title>
+  <title>Feedback</title>
   <link rel="icon" href="..\Images\Vex Logo Crown PNG.png">
   </head>
   <body>
@@ -25,10 +28,46 @@
         </video>
     </div>
       <div class="topTag">
-      <h1 style="margin-top: -50px;">Tips and Tricks</h1>
+      <h1 style="margin-top: -50px;">Contact Us</h1>
       </div>
     </div>
 
+    <div class="container" id='booknow'>
+      <form autocomplete=off action="javascript:;" id="resetForm" onsubmit="insert_value()">
+        <!-- <label for="email"><div class="forumText">Email</div></label> -->
+        <input type="text" class="book-now" id="name" name="name" placeholder="Your name or team name.." required><br />
+        <input type="email" class="book-now" id="email" name="email" placeholder="Your Email.." required><br />
+
+        <!-- <label for="name"><div class="forumText">Name</div></label> -->
+
+
+
+        <!-- <label for="feedback"><div class="forumText">Feedback</div></label> -->
+        <input type="feedback" class="book-now" id="feedback" name="feedback" placeholder="Any recommendations to improve the website?" style="height:200px"><br />
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+
+    <!-- <div class="form-container" id="booknow">
+      <div class="form-class">Does it Work? <span style="font-size:3.2vw;">&#9786;</span>
+        <div style="margin-top:15px">
+          <form autocomplete=off action="javascript:;" id="resetForm" onsubmit="insert_value()">
+            <input type="text" class="book-now" id="name" placeholder="Enter your name" required><br />
+            <input type="email" class="book-now" id="email" placeholder="Enter your email" required><br />
+            <input type="number" id="id" onKeyPress="if(this.value.length==10) return false;" class="book-now" placeholder="Enter your 10 digit number" required><br />
+            <select id="city" class="select-custom" id="city" name="city">
+              <option class="options-custom" value="delhi">Delhi</option>
+              <option class="options-custom" value="dehradun">Dehradun</option>
+              <option class="options-custom" value="mumbai">Mumbai</option>
+            </select><br />
+            <input type="submit" value="Register Now"><br />
+          </form>
+        </div>
+      </div>
+    </div> -->
 
 
     <div class="footer">
@@ -55,6 +94,7 @@
         </th>
       </table>
     </div>
+
     <div id='navbar'></div>
     <div class="navbar"style="  font-weight: normal;">
     <a href="about."><img src="..\Images\Vex Logo Crown PNG.png"class="slideInAnimation"style="width:30px; float:left"></a>
@@ -62,8 +102,9 @@
     <a href="about.html"style="text-align:center">About Us</a>
     <a href="vex.html"style="text-align:center">About Vex</a>
     <a href="community.html"style="text-align:center">Community Outreach</a>
-    <a href="tips.html"style="text-align:center">Tips</a>
+    <a href="specialRecognition.html"style="text-align:center">Special Recognition</a>
     <a href="media.html"style="text-align:center">Media</a>
+    <a href="feedback.html"style="text-align:center">Feedback</a>
     <a href="resources.html"style="text-align:center">Resources</a>
     </div>
 
