@@ -1,18 +1,9 @@
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzpExCoqZ08rWot17QWXZtnk0VovQr9QQCroOfwqk7NHrfdvKI/exec'
+const form = document.forms['google-sheet']
 
-var script_url = "https://script.google.com/macros/s/AKfycbyrL-nGMCugHQEZyYUqSKyKzzjlF0cGy1tAq3f5SRNcV65n913j/exec";
-function insert_value() {
-  var name = $("#name").val();
-  var email = $("#email").val();
-  var feedback = $("#feedback").val();
-  var url = script_url + "?callback=ctrlq&name=" + name + "&email=" + email + "&feedback=" + feedback;
-  var request = jQuery.ajax({
-    crossDomain: true,
-    url: url,
-    method: "GET",
-    dataType: "jsonp"
-  });
-  $("#resetForm").reset();
-}
-function ctrlq(e) {
-  alert('YEAAAAAAAAAAA')
-}
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+    .catch(error => console.error('Error!', error.message))
+})

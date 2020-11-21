@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="..\JavaScript\Contact.js"></script>
 <!-- - - - - - - - - - - - - - - - - - - - - REFRENCES - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <!--Style-->
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../Style/style.css">
   <link rel="stylesheet" href="../Style/forumStyle.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <!--000webhost Watermark Removal-->
   <style>
   img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
@@ -32,23 +31,43 @@
       </div>
     </div>
 
-    <div class="container" id='booknow'>
-      <form autocomplete=off action="javascript:;" id="resetForm" onsubmit="insert_value()">
-        <!-- <label for="email"><div class="forumText">Email</div></label> -->
-        <input type="text" class="book-now" id="name" name="name" placeholder="Your name or team name.." required><br />
-        <input type="email" class="book-now" id="email" name="email" placeholder="Your Email.." required><br />
+    <div class="container">
+      <form method="post" autocomplete="off" name="google-sheet">
+        <label for="name"><div class="forumText">Name</div></label>
+        <input type="text" name="Name" placeholder="Your name or team name.." value="" required=""/><br />
 
-        <!-- <label for="name"><div class="forumText">Name</div></label> -->
+        <label for="email"><div class="forumText">Email</div></label>
+        <input type="email" name="Email" placeholder="Your Email.." value="" required=""/><br />
 
-
-
-        <!-- <label for="feedback"><div class="forumText">Feedback</div></label> -->
-        <input type="feedback" class="book-now" id="feedback" name="feedback" placeholder="Any recommendations to improve the website?" style="height:200px"><br />
-
-        <input type="submit" value="Submit">
+        <label for="feedback"><div class="forumText">Feedback</div></label>
+        <textarea type="number" class="form-control" name="Response" placeholder="Any recommendations to improve the website?" bstyle="height:200px" required=""/></textarea><br />
+      <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+        <input type="submit"name="submit" value="Send" />
       </form>
     </div>
 
+    <!-- <div class="container register">
+                <div class="row">
+                    <div class="col-md-12">
+                            <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <h3 class="register-heading">Connect Google Spreadsheet to HTML</h3>
+                                <div class="row register-form">
+                                    <div class="col-md-12">
+                                        <form method="post" autocomplete="off" name="google-sheet">
+                                                <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" required=""/>
+                                                <input type="text" name="Email" class="form-control" placeholder="Your Email *" value="" required=""/>
+                                                <input type="number" name="Phone" class="form-control" placeholder="Your Contact Number *" value="" required=""/>
+
+                                            <div class="form-group">
+                                                <input type="submit" name="submit" class="btnSubmit btn-block" value="Login" />
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div> -->
 
 
     <!-- <div class="form-container" id="booknow">
@@ -111,4 +130,7 @@
     </body>
     <script src="..\JavaScript\Script.js"></script>
     <script src="..\JavaScript\SlideShow.js"></script>
+    <script src="../JavaScript/Contact.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </html>
