@@ -24,6 +24,8 @@ function callbackFunc(entries, observer)  // Create a Callback for Element Detec
     element2.classList.add("slideIn");//Add an animation
     var element3 = document.getElementById("thirdBlock"); // Create an element
     element3.classList.add("slideIn");//Add an animation
+    var element4 = document.getElementById("fourthBlock"); // Create an element
+    element4.classList.add("slideIn");//Add an animation
     counters.forEach(counter => { // For each Counter
       let currentCount = counter.innerText; // Get current amount
     	const updateCount = () => {  // Create a loop that constantly updates

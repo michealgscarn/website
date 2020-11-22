@@ -84,6 +84,7 @@ th{
   text-shadow:  10px 10px rgb(0, 5, 39);
   text-decoration: none;
 }
+
 /*Top Section*/
 .homeTop {
   width: 100%;
@@ -127,7 +128,7 @@ height:311px;
 /*Title At Top*/
 .topTag {
   max-width: 1700px;
-  height: 514px;
+  height: 100%;
   padding-top: 0px;
   text-align: center;
   padding: 97px;
@@ -168,11 +169,10 @@ height:311px;
  max-width: 50%;
 }
 .sideTextImage{
-  position: fixed;
-  padding: 50vh 50vw;
-  background: url(http://lorempixel.com/1500/1000/city/Dummy-Text) no-repeat;
+  background-position: fixed;
+  background-position-x: 55%;
   background-size: cover;
-  width: 40%;
+  background-image: url("../Images/aboutUsThumbnail.JPG");
 }
 /*Footer*/
 .footer {
@@ -187,6 +187,20 @@ height:311px;
 /*Footer Tile*/
 .footerTile {
   width:33%;
+
+}
+
+/*----------------------------------------------Media Image-----------------------------------------------*/
+
+.mediaContainer{
+  height:300px;
+  width:300px;
+  overflow: hidden;
+  margin: 50px;
+}
+.mediaImage{
+  height:300px;
+  float:middle;
 
 }
 
@@ -265,20 +279,31 @@ p, li{
       margin-right: 0px;
   }
 /*Link to a Website*/
-  .link {
+  .link{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
+  p a {
+    transition:0.2s;
+  }
+  p a:visited {
+    color:rgb(90, 130, 255);
+  }
+  p a:hover {
+    color: goldenrod;
+  }
+
 /*Link without hover*/
   a {
     text-decoration: none;
   }
 /*Hover Temperature*/
   a:hover {
-    text-decoration: underline;
     text-decoration-color: white;
   }
+
+
 
 /*------------------------------------------------SLIDESHOW-------------------------------------------------*/
 .homeSlides img:hover{
@@ -329,7 +354,7 @@ p, li{
   border-radius: 3px 0 0 3px;
 }
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+.prev, .next {
   background-color: rgba(0,0,0,0.8);
 }
 /* Caption text */
@@ -451,4 +476,134 @@ p, li{
   color: white;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column2 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  text-align: justify;
+
+}
+.column2 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    transition: 0.2s;
+}
+
+.column img:hover  {
+  box-shadow: 5px 5px 10px #aaaaaa;
+  width:102%;
+}
+.coolImage {
+  transition: 0.5s;
+}
+.coolImage:hover {
+    box-shadow: 5px 5px 5px #EEEEEE  ;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 1275px) {
+  #navbar {
+      height:80px;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.containerImage {
+  position: relative;
+
+}
+.overlayText {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 102%;
+  transition: .1s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.overlayDate {
+  font-size:15px;
+}
+.containerImage:hover .overlayText {
+  opacity: 1;
+}
+
+dt {
+  text-align: center;
+}
+
+dd {
+  text-align: center;
+}
+
+.resourcesTiles {
+  width:100%;
+  border:solid;
+  border-color:rgb(200, 200, 200);
+  border-width:2px;
+  margin:0;
+  box-shadow: 10px,10px,50px,grey;
 }
