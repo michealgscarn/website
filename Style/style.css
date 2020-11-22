@@ -18,8 +18,8 @@
 /*Main Page*/
 
  ::selection {
-   background: rgb(102, 204, 255);
-   color:blue;
+   background: rgb(255, 222, 14);
+   color: rgb(0, 9, 47);
 }
 
 img::selection {
@@ -248,10 +248,10 @@ p, li{
   }
   /*Info Row Text*/
   .counter{
-    font-size: 30px;
-    color:#e0dd00;
-    -webkit-text-stroke-color: rgb(144, 160, 0);
+    font-size: 50px;
     margin-top: 50px;
+    color:rgb(255, 219, 14);
+    -webkit-text-stroke-color: rgb(170, 170, 0);
   }
   /*Sponsorship Image Aligment*/
   .sponsorImage{
@@ -538,7 +538,7 @@ body {
   transition: 0.5s;
 }
 .coolImage:hover {
-    box-shadow: 5px 5px 5px #EEEEEE  ;
+    box-shadow: 5px 5px 5px #EEEEEE ;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
