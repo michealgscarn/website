@@ -538,7 +538,7 @@ body {
   transition: 0.5s;
 }
 .coolImage:hover {
-    box-shadow: 5px 5px 5px #EEEEEE  ;
+    box-shadow: 5px 5px 5px #EEEEEE ;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

@@ -1,0 +1,41 @@
+.leftBlock {
+  width:100%;
+  float:left;
+  transition: 0.5s;
+  box-shadow: 5px 5px 5px #EEEEEE ;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.leftBlock:hover {
+  transform: scale(1.05); // Alternatively, you can use percentages
+  background-color: blue;
+    box-shadow: 5px 5px 5px #EEEEEE ;
+}
+
+.rightBlock {
+  width:100%;
+  float:right;
+  transition: 0.5s;
+  background-color: white;
+  box-shadow: 5px 5px 5px #EEEEEE ;
+  padding-left: 20px;
+  padding-right:20px;
+}
+.rightBlock:hover {
+  transform: scale(1.05); // Alternatively, you can use percentages
+  background-color: blue;
+  box-shadow: 5px 5px 5px #EEEEEE ;
+}
+
+.rightBlock:hover img, .leftBlock:hover img {
+  transform: scale(1.1); // Alternatively, you can use percentages
+
+}
+
+.largeBox {
+  height:1000px;
+}
+
+.smallBox {
+  height:700px;
+}
