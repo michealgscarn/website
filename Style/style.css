@@ -18,7 +18,7 @@
 /*Main Page*/
 
  ::selection {
-   background: rgb(255, 222, 14);
+   background: #ffdb00;;
    color: rgb(0, 9, 47);
 }
 
@@ -206,9 +206,13 @@ height:311px;
 
 /*----------------------------------------------TEXT-------------------------------------------------------*/
 /*Normal Text*/
+p, li, h1,h2,h3,h4,h5,dd,dt {
+  /* font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif; */
+font-family: boschsans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    /* font-family: Montserrat, Arial, sans-serif; */
+}
 p, li{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(0, 0, 0);
+  color: rgb(100, 100, 100);
   font-weight:100;
   text-align:left;
   font-size: 17px;
@@ -218,7 +222,6 @@ p, li{
   /*Title*/
   h1{
     font-size: 100px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:goldenrod;
   }
   /*Section Header*/
@@ -232,6 +235,8 @@ p, li{
   h3{font-size: 14px;}
 
   h6{
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+
     color:rgb(60, 80, 255);
     font-weight: 900;
     font-size: 40px;
@@ -263,6 +268,18 @@ p, li{
   .sponsorImage:hover {
     opacity: 100%;
     transform: scale(1.03);
+  }
+
+  /*Person Image Aligment*/
+  .personImage{
+    vertical-align: middle;
+    padding: 30px;
+    transition: 0.25s;
+    opacity:inherit;
+  }
+  .personImage:hover {
+    transform: scale(1.03);
+    opacity:inherit;
   }
 
 /*------------------------------------------------ALIGNMENT------------------------------------------------*/
@@ -597,6 +614,10 @@ dt {
 
 dd {
   text-align: center;
+  color: rgb(100, 100, 100);
+  font-weight:100;
+  font-size: 17px;
+  line-height: 27px;
 }
 
 .resourcesTiles {
