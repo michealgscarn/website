@@ -16,7 +16,7 @@ input[type=submit] {
  background-color: #3462EC;
  color: white;
  padding: 20px 20%;
- margin-left: 29%;
+ margin-left: 0%;
  border: none;
  border-radius: 4px;
  cursor: pointer;
@@ -33,6 +33,8 @@ input[type=submit]:hover {
  background-color: rgb(230, 234, 246);
  padding: 20px;
  margin: 30px;
+ margin-left:100px;
+ margin-right:100px;
 }
 
 .forumText {
@@ -59,6 +61,7 @@ button {
  border: none;
  cursor: pointer;
  width: 100%;
+
 }
 
 button:hover {
