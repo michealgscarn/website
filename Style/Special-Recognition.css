@@ -30,13 +30,13 @@
   opacity:80%;
 }
 
-.rightBlock:hover img, .leftBlock:hover img {
+.rightBlock:hover .sponsorImage, .leftBlock:hover .sponsorImage {
   transform: scale(1.1); // Alternatively, you can use percentages
   opacity:100%;
 }
 
 .largeBox {
-  height:1100px;
+  height:1400px;
 }
 
 .smallBox {
