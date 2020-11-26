@@ -121,7 +121,7 @@ th{
   min-width: 1500px;
 }
 
-video{
+.homeTop video{
   position:fixed;
   width:100%;
   margin:auto;
