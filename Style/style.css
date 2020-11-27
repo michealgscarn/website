@@ -246,10 +246,10 @@ p, li{
   h6{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
 
-    color:rgb(60, 80, 255);
+    color:rgb(255, 194, 38);
     font-weight: 900;
     font-size: 40px;
-    -webkit-text-stroke-color: rgb(30, 50, 255);
+    -webkit-text-stroke-color: rgb(170, 170, 0);
     padding:0;
     margin-top:0;
     margin-bottom:0;
