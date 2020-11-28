@@ -42,3 +42,11 @@
 .smallBox {
   height:700px;
 }
+
+.smallBox img{
+  height:350px;
+}
+
+.smallBox .ImageContainer {
+  height:350px;margin:0;
+}
