@@ -173,6 +173,7 @@ height:311px;
   background-color: rgb(241, 248, 255);
  padding:60px;
  padding-left:20%;
+ padding-right:20%;
  padding-bottom: 100px;
  max-width: 50%;
 }
@@ -180,7 +181,7 @@ height:311px;
   background-position: fixed;
   background-position-x: 55%;
   background-size: cover;
-  background-image: url("../Images/About-Us/aboutUsThumbnail.jpg");
+  /* background-image: url("../Images/About-Us/aboutUsThumbnail.jpg"); */
   z-index:999;
 }
 /*Footer*/
@@ -259,6 +260,7 @@ p, li{
     height:6px;
     border-width:1;
     background-color:rgb(192, 204, 255);
+    margin-bottom:20px;
   }
   /*Info Row Text*/
   .counter{
