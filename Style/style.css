@@ -578,7 +578,7 @@ body {
   }
 }
 
-@media screen and (max-width: 1275px) {
+@media screen and (max-width: 1219px) {
   #navbar {
       height:80px;
   }
