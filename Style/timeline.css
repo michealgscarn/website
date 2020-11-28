@@ -78,7 +78,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background-color: goldenrod;
+  background-color: rgb(74, 74, 255);
 }
 
 .timeline ul li div {

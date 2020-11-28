@@ -321,10 +321,6 @@ p, li{
     transition: 0.25s;
     opacity:inherit;
   }
-  .personImage:hover {
-    transform: scale(1.03);
-    opacity:inherit;
-  }
 
   #piechart {
     margin-left: 25%;
