@@ -359,7 +359,7 @@ p, li{
     color:rgb(90, 130, 255);
   }
   .text a:visited {
-    color: rgb(200,200,200);
+    color: rgb(101, 103, 255);
   }
   p a:hover, .text a:hover {
     color: goldenrod;
@@ -434,16 +434,16 @@ p, li{
 .prev, .next {
   background-color: rgba(0,0,0,0.8);
 }
-/* Caption text */
+/* Caption text rgb(175, 216, 255)*/
 .text {
-  color: rgb(255,255,255);
+  color: navy;
   font-size: 20px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
-  background-color: blue;
+  background-color: rgb(209, 225, 241);
   opacity: 80%;
 }
 .communityText {
@@ -528,7 +528,7 @@ p, li{
   img[src="https://www.ibtinc.com/wp-content/uploads/2019/06/YASKAWA-logo-blue.png"] {
     height:30px;
   }
-  .slideshow-container{ width:100%;}
+  .container{ width:100%;}
   .text{font-size: 15px;}
   h1{font-size: 70px;}
 }
