@@ -258,7 +258,7 @@ p, li{
   hr {
     height:6px;
     border-width:1;
-    background-color:#dddddd;
+    background-color:rgb(192, 204, 255);
   }
   /*Info Row Text*/
   .counter{
