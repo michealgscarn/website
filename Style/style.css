@@ -248,10 +248,10 @@ font-family: boschsans,"Helvetica Neue",Helvetica,Arial,sans-serif;
     /* font-family: Montserrat, Arial, sans-serif; */
 }
 p, li{
-  color: rgb(70, 70, 70);
+  color: rgb(50, 50, 50);
   font-weight:100;
   text-align:left;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 27px;
   text-align: justify;
   }
@@ -264,14 +264,14 @@ u{
   /*Title*/
   h1{
     font-size: 100px;
-    color:goldenrod;
+    color:gold;
   }
   /*Section Header*/
   h2{
     color:rgb(255, 194, 38);
     font-weight: 900;
     font-size: 40px;
-    -webkit-text-stroke-color: rgb(170, 170, 0);
+
   }
   /*Top Spacing*/
   h3{font-size: 14px;}
@@ -301,6 +301,7 @@ u{
     margin-bottom: -50px;
     color:rgb(255, 219, 14);
     -webkit-text-stroke-color: rgb(170, 170, 0);
+    color:rgb(255, 194, 38);
   }
   .counterText{
     font-size: 70px;
