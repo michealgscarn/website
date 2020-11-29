@@ -328,17 +328,6 @@ u{
     opacity:inherit;
   }
 
-  .quote{
-    font-size:40px;
-    color:navy;
-  }
-
-  .quoteBold{
-    font-size:50px;
-    color:goldenrod;
-    text-align:right;
-  }
-
   #piechart {
     margin-left: 25%;
     width:50%;
