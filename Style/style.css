@@ -255,6 +255,12 @@ p, li{
   line-height: 27px;
   text-align: justify;
   }
+
+u{
+  color:goldenrod;
+  text-decoration:none;
+}
+
   /*Title*/
   h1{
     font-size: 100px;
@@ -320,17 +326,6 @@ p, li{
     padding: 30px;
     transition: 0.25s;
     opacity:inherit;
-  }
-
-  .quote{
-    font-size:40px;
-    color:navy;
-  }
-
-  .quoteBold{
-    font-size:50px;
-    color:goldenrod;
-    text-align:right;
   }
 
   #piechart {
