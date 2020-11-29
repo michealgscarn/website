@@ -255,6 +255,12 @@ p, li{
   line-height: 27px;
   text-align: justify;
   }
+
+u{
+  color:goldenrod;
+  text-decoration:none;
+}
+
   /*Title*/
   h1{
     font-size: 100px;
