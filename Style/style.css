@@ -265,7 +265,7 @@ u{
   /*Title*/
   h1{
     font-size: 100px;
-    color:gold;
+    color:goldenrod;
   }
   /*Section Header*/
   h2{
@@ -290,8 +290,8 @@ u{
   }
   /*Text Devider*/
   hr {
-    height:6px;
-    border-width:1;
+    height:1px;
+    border-width:0;
     background-color:rgb(192, 204, 255);
     margin-bottom:20px;
   }
