@@ -13,8 +13,8 @@ img {
 /* Position the image container (needed to position the left and right arrows) */
 .imageContainer {
   position: relative;
-  margin: 0 15% 0 15%;
-  height:600px;
+  margin: 100px 18% 0 18%;
+  height:640px;
   overflow: hidden;
 }
 
@@ -23,6 +23,14 @@ img {
   display: none;
   height:400px;
   overflow: hidden;
+}
+.slide img {
+  transition: 0.2s;
+  opacity:0.9;
+}
+.slide:hover img{
+  transform: scale(1.01);
+  opacity: 1;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
