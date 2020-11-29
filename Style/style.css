@@ -208,7 +208,7 @@ height:311px;
 }
 /*Footer*/
 .footer {
-  background-image:url("http://api.thumbr.it/whitenoise-361x370.png?background=3346b0ff&noise=626262&density=47&opacity=64");
+  background-image:url("../Images/Footer/Background.png");
   padding-top:10px;
   padding-left:auto;
   padding-right:auto;
@@ -399,7 +399,7 @@ p, li{
     margin-top: 50px;
     box-shadow: 10px,10px,50px,grey;
     transition: 0.5s;
-    height:510px;
+    max-height:510px;
 }
 .slideshow-container:hover {
     box-shadow: 10px,10px,50px,grey;
@@ -509,7 +509,7 @@ p, li{
   .footerTile img{  width: 30px;}
   .footerTile img[src="Vex Logo Crown PNG.png"]{  width: 0%;padding-left:0px;padding-right:0px;}
   th{ padding-left:0px;padding-right:0px; }
-  .infoRow th{ padding-left:30px;padding-right:30px; padding-top:0px; }
+  .infoRow th{ padding-left:3%;padding-right:2%; padding-top:40px; }
   p[style="color:white;"]{font-size: 12px}
 }
 @media only screen and (max-width: 900px) {
@@ -637,6 +637,11 @@ margin-left:50px;
 @media screen and (max-width: 1219px) {
   #navbar {
       height:80px;
+  }
+}
+@media screen and (max-width:684px){
+  #navbar {
+    height:110px;
   }
 }
 
