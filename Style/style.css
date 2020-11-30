@@ -266,11 +266,11 @@ u{
   /*Title*/
   h1{
     font-size: 100px;
-    color:goldenrod;
+    color:white;
   }
-  /*Section Header*/
+  /*Section Header --------------- original rgb(255, 194, 38)*/
   h2{
-    color:rgb(255, 194, 38);
+    color:navy;
     font-weight: 900;
     font-size: 40px;
   }
