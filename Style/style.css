@@ -270,24 +270,23 @@ u{
   }
 
   .element {
-    padding: 50px;
-    animation: backgrounds 10s infinite;
+    animation: backgrounds 4s infinite;
   }
   @keyframes backgrounds {
     0% {
-      color: #ffffff
+      color: rgb(250, 197, 62);
     }
     50% {
       color: goldenrod;
     }
     100% {
-      color: white;
+      color: rgb(250, 197, 62);
     }
   }
 
   /*Section Header --------------- original rgb(255, 194, 38)*/
   h2{
-    color:navy;
+    color: rgb(0, 0, 158);
     font-weight: 900;
     font-size: 40px;
   }
