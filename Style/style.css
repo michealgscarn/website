@@ -227,6 +227,47 @@ height:311px;
   width:40px;
 }
 
+/*--------------------Slideshow Attempt--------------------*/
+/*brought to you by taylor*/
+.slider-frame{
+  overflow:hidden;
+  height:800px;
+  width: 1200px;
+  margin-left: 360px;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation{
+  0% {left:0px}
+  10% {left:0px}
+  20% {left:1200px}
+  30% {left:1200px}
+  40% {left:2400px}
+  50% {left:2400px}
+  60% {left:1200px}
+  70% {left:1200px}
+  80% {left:0px}
+  90% {left:0px}
+  100% {left:0px}
+}
+
+.slide-imgaes{
+  width:3600px;
+  height:800px;
+  margin: 0 0 0 -2400px;
+  -webkit-animation-name:slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+  -webkit-animation-play-state: running;
+}
+
+.img-container2{
+  height:800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
 
 /*----------------------------------------------Media Image-----------------------------------------------*/
 
@@ -269,6 +310,23 @@ u{
     font-size: 100px;
     color:white;
   }
+
+  .element {
+    padding: 50px;
+    animation: backgrounds 10s infinite;
+  }
+  @keyframes backgrounds {
+    0% {
+      color: #ffffff
+    }
+    50% {
+      color: goldenrod;
+    }
+    100% {
+      color: white;
+    }
+  }
+
   /*Section Header --------------- original rgb(255, 194, 38)*/
   h2{
     color:navy;
