@@ -207,7 +207,7 @@ height:311px;
 
 /*----------Footer----------*/
 .footer {
-  background-image:url("../Images/Footer/Background.png");
+  background-color:rgb(0, 13, 88);
   padding-top:10px;
   padding-left:auto;
   padding-right:auto;
