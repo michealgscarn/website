@@ -44,7 +44,7 @@ th{
   padding-left:80px;
   padding-right:80px;
 }
-/*Navigation Bar*/
+/*----------Navigation Bar----------*/
 #navbar {
   overflow: hidden;
   background-color: rgb(0, 13, 88);
@@ -68,7 +68,11 @@ th{
     padding:10px;
   font-size: 20px;
 }
-/*Navigation Bar Link*/
+.navbar img {
+  width:30px;
+  float:left;
+}
+/*-----Navigation Bar Link-----*/
 .navbar a {
   font-size: 20px;
   color: white;
@@ -87,12 +91,7 @@ th{
   text-decoration: none;
 }
 
-.navbar img {
-  width:30px;
-  float:left;
-}
-
-/*Top Section*/
+/*--------------------Top Section--------------------*/
 .homeTop {
   width: 100%;
   display: flex;
@@ -101,10 +100,10 @@ th{
   overflow: hidden;
 }
 #homeTop{
-    height: 100vh;
+  height: 100vh;
   position:relative;
 }
-/*Top Section For Every Page But Home*/
+/*-----Top Section For Every Page But Home-----*/
 .normTop {
   position: relative;
   width: 95%;
@@ -124,19 +123,18 @@ th{
 /*Background Video*/
 .video-container {
   position: absolute;
-
   width: 100%;
   min-width: 1500px;
 }
 
 
-/*Youtube Video*/
+/*-----Youtube Video-----*/
 iframe{
 width:533px;
 height:311px;
 }
 
-/*Title At Top*/
+/*-----Title At Top-----*/
 .topTag {
   max-width: 1700px;
   height: 100%;
@@ -206,7 +204,8 @@ height:311px;
   margin-bottom:50px;
   width:80%;
 }
-/*Footer*/
+
+/*----------Footer----------*/
 .footer {
   background-image:url("../Images/Footer/Background.png");
   padding-top:10px;
@@ -216,17 +215,19 @@ height:311px;
   width:100%;
   overflow: hidden;
 }
-/*Footer Tile*/
+/*-----Footer Tile-----*/
 .footerTile {
   width:33%;
-}
-.footerTile img {
-  width:40px;
 }
 .footerTile p {
   color:white;
   font-family: monospace;
 }
+.footerTile img {
+  width:40px;
+}
+
+
 /*----------------------------------------------Media Image-----------------------------------------------*/
 
 .mediaContainer{
