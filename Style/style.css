@@ -258,7 +258,7 @@ height:311px;
   -webkit-animation-name:slide_animation;
   -webkit-animation-duration: 33s;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
+  -webkit-animation-direction: alternate;
   -webkit-animation-play-state: running;
 }
 
