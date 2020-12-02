@@ -1,8 +1,8 @@
 .slider{
   width: 800px;
   height: 500px;
-  border-radius: 10px;
   overflow: hidden;
+  align:middle;
 }
 
 .slides{
