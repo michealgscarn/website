@@ -20,8 +20,8 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="Style/style.css">
-  <link rel="stylesheet" href="Style/SlideShow.css">
   <link rel="stylesheet" href="Style/Special-Recognition.css">
+  <link rel="stylesheet" href="Style/SlideShow.css">
 <!--Tab Stuff-->
   <title>Revelation Robotics</title>
   <link rel="icon" href="Images\Vex Logo Crown PNG.png">
@@ -122,72 +122,47 @@
     </table>
   </div>
 
-  <div class="imageContainer">
-    <div class="slide">
-      <div class="numbertext">1 / 7</div>
-      <a href="About-Us.html"><img src="Images\About-Us\aboutUsThumbnail.jpg" style="width:100%"></a>
-    </div>
-
-    <div class="slide">
-      <div class="numbertext">2 / 7</div>
-      <a href="About-Vex.html"><img src="Images\About-Vex\vexThumbnail.jpeg" style="width:100%"></a>
-    </div>
-
-    <div class="slide">
-      <div class="numbertext">3 / 7</div>
-      <a href="Community-Outreach.html"><img src="Images\Community-Outreach\communityThumbnail.jpg" style="width:100%"></a>
-    </div>
-
-    <div class="slide">
-      <div class="numbertext">4 / 7</div>
-      <a href="Recognition.html"><img src="Images\Media\mediaThumbnail.jpg" style="width:100%"></a>
-    </div>
-
-    <div class="slide">
-      <div class="numbertext">5 / 7</div>
-      <a href="Media.html"><img src="Images\Media\mediaThumbnail.jpg" style="width:100%"></a>
-    </div>
-
-    <div class="slide">
-      <div class="numbertext">6 / 7</div>
-      <a href="Contact-Us.html"><img src="Images\Media\mediaThumbnail.jpg" style="width:100%"></a>
-    </div>
-    <div class="slide">
-      <div class="numbertext">6 / 7</div>
-      <a href="Resources.html"><img src="Images\Media\mediaThumbnail.jpg" style="width:100%"></a>
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">❮</a>
-    <a class="next" onclick="plusSlides(1)">❯</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-    <div class="row">
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\About-Us\aboutUsThumbnail.jpg" style="width:100%" onclick="currentSlide(1)" alt="About Us">
+  <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="Images\About-Us\aboutUsThumbnail.jpg" alt="">
       </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\About-Vex\vexThumbnail.jpeg" style="width:100%" onclick="currentSlide(2)" alt="About Vex">
+      <div class="slide">
+        <img src="Images\About-Vex\vexThumbnail.jpeg" alt="">
       </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\Community-Outreach\communityThumbnail.jpg" style="width:100%" onclick="currentSlide(3)" alt="Outreach Activities">
+      <div class="slide">
+        <img src="Images\Community-Outreach\communityThumbnail.jpg" alt="">
       </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\Media\mediaThumbnail.jpg" style="width:100%" onclick="currentSlide(4)" alt="Recognition">
+      <div class="slide">
+        <img src="Images\Media\mediaThumbnail.jpg" alt="">
       </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\Media\mediaThumbnail.jpg" style="width:100%" onclick="currentSlide(5)" alt="Media">
+      <!--slide images end-->
+      <!--automatic navigation start-->
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
       </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\Media\mediaThumbnail.jpg" style="width:100%" onclick="currentSlide(6)" alt="Contact Us">
-      </div>
-      <div class="miniSlide">
-        <img class="demo cursor" src="Images\Media\mediaThumbnail.jpg" style="width:100%" onclick="currentSlide(7)" alt="Resources">
-      </div>
+      <!--automatic navigation end-->
     </div>
+    <!--manual navigation start-->
+    <div class="navigation-manual">
+      <label for="radio1" class="manual-btn"></label>
+      <label for="radio2" class="manual-btn"></label>
+      <label for="radio3" class="manual-btn"></label>
+      <label for="radio4" class="manual-btn"></label>
+    </div>
+    <!--manual navigation end-->
   </div>
+
 
   <br>
   <div class="footer">
@@ -233,7 +208,15 @@
   </body>
 
 <script src="JavaScript\Script.js"></script>
-<script src="JavaScript\HomeSlideShow.js"></script>
 <script src="JavaScript\Navbar.js"></script>
-
+<script type="text/javascript">
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;
+  }
+}, 5000);
+</script>
 </html>
