@@ -6,7 +6,7 @@
 }
 
 .slides{
-  width: 500%;
+  width: 700%;
   height: 500px;
   display: flex;
 }
@@ -16,7 +16,7 @@
 }
 
 .slide{
-  width: 20%;
+  width: 800px;
   transition: 2s;
 }
 
@@ -36,11 +36,11 @@
 }
 
 .manual-btn{
-  border: 2px solid #40D3DC;
+  border: 2px solid #FFF;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
-  transition: 1s;
+  transition: 2s;
 }
 
 .manual-btn:not(:last-child){
@@ -48,7 +48,7 @@
 }
 
 .manual-btn:hover{
-  background: #40D3DC;
+  background: #FFF;
 }
 
 #radio1:checked ~ .first{
@@ -56,32 +56,45 @@
 }
 
 #radio2:checked ~ .first{
-  margin-left: -20%;
+  margin-left: -14.28571428571429%;
 }
 
 #radio3:checked ~ .first{
-  margin-left: -40%;
+  margin-left: -28.57142857142857%;
 }
 
 #radio4:checked ~ .first{
-  margin-left: -60%;
+  margin-left: -42.85714285714286%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -57.14285714285714%;
+}
+
+#radio6:checked ~ .first{
+  margin-left: -71.42857142857143%;
+}
+
+#radio7:checked ~ .first{
+  margin-left: -85.71428571428571%;
 }
 
 /*css for automatic navigation*/
 
 .navigation-auto{
   position: absolute;
-  display: flex;
   width: 800px;
+  margin-top: -40px;
+  display: flex;
   justify-content: center;
-  margin-top: 460px;
 }
 
 .navigation-auto div{
-  border: 2px solid #40D3DC;
+  border: 2px solid #FFF;
   padding: 5px;
   border-radius: 10px;
-  transition: 1s;
+  cursor: pointer;
+  transition: 2s;
 }
 
 .navigation-auto div:not(:last-child){
@@ -89,17 +102,33 @@
 }
 
 #radio1:checked ~ .navigation-auto .auto-btn1{
-  background: #40D3DC;
+  background: #FFF;
 }
 
 #radio2:checked ~ .navigation-auto .auto-btn2{
-  background: #40D3DC;
+  background: #FFF;
 }
 
 #radio3:checked ~ .navigation-auto .auto-btn3{
-  background: #40D3DC;
+  background: #FFF;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-  background: #40D3DC;
+  background: #FFF;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #FFF;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+  background: #FFF;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+  background: #FFF;
+}
+
+.fdsfsdfsd {
+background: visible;
 }
