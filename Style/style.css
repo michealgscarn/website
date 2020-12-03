@@ -764,3 +764,26 @@ dd {
   background-color: goldenrod;    /*rgb(0, 60, 190)*/
   text-shadow: 2px 2px darkgoldenrod;
 }
+
+/*--------Gradient hue over images----------*/
+.hue{
+  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(28, 51, 255, 0.6));
+  width: 100%;
+  display: flex;
+}
+
+.hueFirst{
+  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(107, 121, 255, 0.6));
+  width: 100%;
+  display: flex;
+}
+
+.hueContinued{
+  background-image: linear-gradient(rgba(107, 121, 255, 0.6),rgba(28, 51, 255, 0.6));
+  width: 100%;
+  display: flex;
+}
+
+.imageFade{
+  opacity: 70%
+}
