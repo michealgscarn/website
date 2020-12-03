@@ -767,23 +767,52 @@ dd {
 
 /*--------Gradient hue over images----------*/
 .hue{
-  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(28, 51, 255, 0.6));
+  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(0, 21, 207, 0.6));
   width: 100%;
   display: flex;
+  align-items:center;
 }
 
 .hueFirst{
-  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(107, 121, 255, 0.6));
+  background-image: linear-gradient(rgba(152, 176, 255, 0.6),rgba(83, 99, 241, 0.6));
   width: 100%;
   display: flex;
 }
 
 .hueContinued{
-  background-image: linear-gradient(rgba(107, 121, 255, 0.6),rgba(28, 51, 255, 0.6));
+  background-image: linear-gradient(rgba(83, 99, 241, 0.6),rgba(0, 21, 207, 0.6));
   width: 100%;
   display: flex;
 }
 
-.imageFade{
-  opacity: 70%
+.breathe:hover {
+  animation: zooms 6s infinite;
+}
+
+.breatheSmall:hover{
+  animation: zoomer 10s infinite;
+}
+
+@keyframes zooms {
+  0% {
+    transform: scale(1.03);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1.03);
+  }
+}
+
+@keyframes zoomer{
+  0% {
+    transform: scale(1.01);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1.01);
+  }
 }
