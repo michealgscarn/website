@@ -248,12 +248,13 @@ height:311px;
 /*----------------------------------------------TEXT-------------------------------------------------------*/
 /*Normal Text*/
 p, li, h1,h2,h3,h4,h5,dd,dt {
-  /* font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif; */
-font-family: boschsans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+  letter-spacing: -.022em
+/* font-family: boschsans,"Helvetica Neue",Helvetica,Arial,sans-serif; */
     /* font-family: Montserrat, Arial, sans-serif; */
 }
 p, li{
-  color: rgb(50, 50, 50);
+  color: #1d1d1f;
   font-weight:100;
   text-align:left;
   font-size: 18px;
@@ -290,9 +291,12 @@ u{
 
   /*Section Header --------------- original rgb(255, 194, 38)*/
   h2{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: rgb(0, 0, 158);
-    font-weight: 900;
+    font-weight: 600;
     font-size: 40px;
+    line-height: 1.1px;
+    letter-spacing: 0em;
   }
   /*Top Spacing*/
   h3{font-size: 14px;}
@@ -327,7 +331,7 @@ u{
   .counterText{
     font-size: 70px;
     margin-top: 100px;
-    color:rgb(255, 219, 14);
+    color:rgb(255, 194, 38);
     -webkit-text-stroke-color: rgb(170, 170, 0);
   }
   /*Sponsorship Image Aligment*/
@@ -352,7 +356,7 @@ u{
 
   #piechart {
 
-    width:250px;
+    width:350px;
     zoom:2.5;
     margin-bottom:-50px
   }
@@ -726,6 +730,14 @@ dt {
 
 dd {
   text-align: center;
+  color: rgb(100, 100, 100);
+  font-weight:100;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+dd p {
+  text-align: justify;
   color: rgb(100, 100, 100);
   font-weight:100;
   font-size: 17px;
