@@ -253,7 +253,7 @@ font-family: boschsans,"Helvetica Neue",Helvetica,Arial,sans-serif;
     /* font-family: Montserrat, Arial, sans-serif; */
 }
 p, li{
-  color: rgb(50, 50, 50);
+  color: rgb(80, 80, 80);
   font-weight:100;
   text-align:left;
   font-size: 18px;
@@ -290,9 +290,13 @@ u{
 
   /*Section Header --------------- original rgb(255, 194, 38)*/
   h2{
-    color: rgb(0, 0, 158);
-    font-weight: 900;
-    font-size: 40px;
+    font-size: 50px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #333;
+    font-style: normal;
   }
   /*Top Spacing*/
   h3{font-size: 14px;}
