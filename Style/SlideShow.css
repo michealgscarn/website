@@ -1,0 +1,134 @@
+.slider{
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  align:middle;
+}
+
+.slides{
+  width: 700%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 800px;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: white;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -14.28571428571429%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -28.57142857142857%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -42.85714285714286%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -57.14285714285714%;
+}
+
+#radio6:checked ~ .first{
+  margin-left: -71.42857142857143%;
+}
+
+#radio7:checked ~ .first{
+  margin-left: -85.71428571428571%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-auto div{
+  border: 2px solid #FFF;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 2s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #FFF;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #FFF;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #FFF;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #FFF;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #FFF;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+  background: #FFF;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+  background: #FFF;
+}
+
+.fdsfsdfsd {
+background: visible;
+}

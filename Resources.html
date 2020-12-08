@@ -17,9 +17,18 @@
 <head>
 <!-- - - - - - - - - - - - - - - - - - - - - REFRENCES - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 <!--Style-->
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="Style/style.css">
+
+<style>
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  </style>
 
 <!--Tab Stuff-->
 <title>Resources</title>
@@ -31,132 +40,234 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome
 <div class="normTop">
   <div class="video-container">
     <video autoplay loop muted width=100%>
-      <source src="Videos/communityHeadVideo.mp4">
+      <source src="Videos/Resources.mp4">
     </video>
   </div>
   <div class="topTag">
-    <h1 style="margin-top: -50px;">Resources</h1>
+    <h1 style="margin-top: -50px;" class="element">Resources</h1>
   </div>
 </div>
-<div style="width:95%; margin:2.5%;">
-  <div class="resourcesTiles">
-    <h6 style="text-align:center">VEX Robotics Competition</h6>
-    <table><th style="width:75%;padding:10px;">
-      <div style="width:100%">
-        <p style="text-align:justify">VEX Robotics has many great resources for teams.
-          You can find everything from game manual updates to certifications on their website.
-        <br><a href="https://www.vexrobotics.com/">https://www.vexrobotics.com/</a></p><br/>
-      </div>
-      <th style="width:30%">
-        <div style="width:100%; margin-left:25%">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Vex-Logo.jpg" style="width:inherit"></div></th>
-    </table>
-  </div>
+
+<div style="width:80%; margin-bottom:150px;" class="center">
   <br>
-  <div class="resourcesTiles">
-    <h6 style="text-align:center">VEX Forum</h6>
-    <table><th style="width:75%;padding:10px;">
-      <div style="width:100%">
-        <p style="text-align:justify">The VEX Forum is a great resource and communication center for teams.
-          You can find everything from coversation threads to robot design discussions.
-          We use the VEX Forum to keep up with all of the new designs and notebook tips teams and students have shared.
-          We highly recommend teams check this platform out.
-        <br><a href="https://www.vexforum.com/">https://www.vexforum.com/</a></p><br/>
-      </div>
-      <th style="width:25%">
-        <div style="width:100%; margin-left:25%">
-          <img src="https://www.vexforum.com/uploads/default/original/2X/3/3a8b3bd946ac24336b946fd6ede0b36dd2f34417.png" style="width:inherit"></div></th>
-    </table>
-  </div>
-  <br>
-  <div class="resourcesTiles">
-    <h6 style="text-align:center">Robot Events</h6>
-    <table><th style="width:75%;padding:10px;">
-      <div style="width:100%">
-        <p style="text-align:justify">Robot Events is a great website for teams.
-          This website allows users to view a wide variety of information about everything VEX.
-          Teams can use Robot Events to sign up for events, view the global skills rank, participate in online challenges,
-          and view event results.
-          We often use this to sign up and view events as well as keep tabs on the global skills ranking.
-          We highly recommend this website for teams to access everything VEX Robotics.
-          <br><a href="https://www.robotevents.com/">https://www.robotevents.com/</a></p><br/>
-          <p></div>
-      <th style="width:25%">
-        <div style="width:100%; margin-left:25%">
-          <img src="https://www.robotevents.com/images/robotevents-logo.png" style="width:inherit"></div></th>
-    </table>
-  </div>
-  <br>
-  <div class="resourcesTiles">
-    <h6 style="text-align:center">VRC Hub</h6>
-    <table><th style="width:75%;padding:10px;">
-      <div style="width:100%">
-        <p style="text-align:justify">VRC Hub is a great phone application for teams.
-          This program allows users to accurately score matches by inputting game specific information.
-          We use VRC Hub after our matches to confirm match scores with the referees.
-          We highly recommend using this application while competitng.</p></div></th>
-        <th style="width:25%">
-          <div style="width:100%; margin-left:25%">
-            <img src="https://www.vexrobotics.com/media/wysiwyg/Red_260px.png" style="width:inherit"></div></th>
-    </table>
-  </div>
-  <br>
-  <div class="resourcesTiles">
-    <h6 style="text-align:center">VEX Via</h6>
-    <table><th style="width:75%;padding:10px;">
-      <div style="width:100%">
-        <p style="text-align:justify">VEX Via is an amazing phone application for teams.
-              This program allows users to view information about events such as awards, team schedules, and match results.
-              We use VEX Via at all of our competitions to make sure we never miss a match and
-              record our match scores for the engineering notebook.
-              Although this application heavily relies on event partners updating the program often,
-              we highly recommend this program to see team schedules and results.</p></div>
-      <th style="width:25%">
-        <div style="width:100%; margin-left:25%">
-          <img src="https://www.roboticseducation.org//app/uploads/2017/11/VEX-VIA.png" style="width:inherit"></div></th>
-    </table>
+  <h2>Core Websites</h2>
+  <hr>
+  <div class="row">
+    <div class="column2" style="max-width:25%;">
+      <div style="height:170px"><a href="https://www.vexrobotics.com/" target="blank_"><img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Vex-Logo.jpg" class="breathe" style="width:45%;margin-left:33%;margin-top:70px"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>VEX Robotics has many great resources for teams.
+        You can find everything from game manual updates to certifications to purchasing VEX materials on their website.
+        We use this website to purchase VEX approved materials for our robot and review game updates.
+        We recommend this teams to check out this website to see everything new with VEX Robotics.
+        <br>
+        <br>
+        <a href="https://www.vexrobotics.com/" target="blank_">vexrobotics.com</a></p>
+      </dd>
+    </div>
+    <div class="column2" style="max-width:25%;overflow:hidden">
+      <div style="height:170px"><a href="https://www.vexforum.com/" target="blank_"><img src="https://www.vexforum.com/uploads/default/original/2X/3/3a8b3bd946ac24336b946fd6ede0b36dd2f34417.png" class="breathe" style="width:80%; margin-left:10%; margin-top:80px;"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>The VEX Forum is a great resource and communication center for teams.
+        You can find everything from coversation threads to robot design discussions.
+        We use the VEX Forum to keep up with all of the new designs and notebook tips teams and students have shared.
+        We recommend teams check this platform out to keep up with VEX related conversations.
+        <br>
+        <br>
+        <a href="https://www.vexforum.com" target="blank_">vexforum.com</a></p>
+      </dd>
+    </div>
+    <div class="column2" style="max-width:25%;">
+      <div style="height:170px"><a href="https://www.robotevents.com/" target="blank_"><img src="https://www.robotevents.com/images/robotevents-logo.png" class="breathe" style="width:90%; margin-left:5%; margin-top:70px;"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>Robot Events is a great website for teams.
+        This website allows users to view a wide variety of information about everything VEX.
+        Teams can use Robot Events to sign up for events, view the global skills rank, participate in online challenges,
+        and view event results.
+        We often use this to sign up and view events as well as keep tabs on the global skills ranking.
+        We recommend this website for teams to access everything VEX Robotics.
+        <br>
+        <br>
+        <a href="https://www.robotevents.com" target="blank_">robotevents.com</a></p>
+      </dd>
+    </div>
+    <div class="column2" style="max-width:25%;">
+      <div style="height:170px"><a href="https://www.roboticseducation.org/" target="blank_"><img src="https://www.roboticseducation.org//app/uploads/2019/08/RECF_Home_Page_Logo.png" class="breathe" style="width:35%; margin-left:38%; margin-top:70px;"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>The Robotics Education Competition Foundation website is very important for the 2021 season.  Not only can you find information
+        about the games and resources for attending and running tournaments, this is also where you can get up to date information About
+        local, regional, and world competitions and how COVID-19 may affect them.  We also recommend this resource for finding scholarships!
+        <br>
+        <br><a href="https://www.roboticseducation.org" target="blank_">roboticseducation.org</a></p>
+      </dd>
+    </div>
   </div>
 </div>
+
+
+<div style="width:80%; margin-bottom:50px;" class="center">
+  <h2>Core Applications</h2>
+  <hr>
+  <div class="row">
+    <div class="column2" style="max-width:33%;">
+      <div style="height:220px"><a href="https://www.vexrobotics.com/v5/competition/vrc-hub" target="blank_"><img src="https://www.vexrobotics.com/media/wysiwyg/Red_260px.png" class="breathe" style="width:40%;margin-left:35%;margin-top:50px"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>VRC Hub is a great phone application for teams.
+        This program allows users to accurately score matches by inputting game specific information.
+        We use VRC Hub after our matches to confirm match scores with the referees.
+        We highly recommend using this application while competitng.
+        <br>
+        <br>
+        <a href="https://www.vexrobotics.com/v5/competition/vrc-hub" target="blank_">vexrobotics.com/v5/competition/vrc-hub</a></p>
+      </dd>
+    </div>
+    <div class="column2" style="max-width:33%;overflow:hidden">
+      <div style="height:220px; overflow:hidden"><a href="https://www.roboticseducation.org/app/vex-via/" target="blank_"><img src="https://www.roboticseducation.org//app/uploads/2017/11/VEX-VIA.png" class="breathe" style="width:55%; margin-left:28%; margin-top:20px;"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>VEX Via is an amazing phone application for teams.
+        This program allows users to view information about events such as awards, team schedules, and match results.
+        We use VEX Via at all of our competitions to make sure we never miss a match and
+        record our match scores for the engineering notebook.
+        Although this application heavily relies on event partners updating the program often,
+        we highly recommend this program to see team schedules and results.
+        <br>
+        <br>
+        <a href="https://www.roboticseducation.org/app/vex-via/" target="blank_">roboticseducation.org/app/vex-via</a></p>
+      </dd>
+    </div>
+    <div class="column2" style="max-width:33%;">
+      <div style="height:220px"><a href="https://www.vexrobotics.com/vexcode-download" target="blank_"><img src="https://www.vexrobotics.com/media/wysiwyg/VEXcode_PRO.png" class="breathe" style="width:30%; margin-left:40%; margin-top:70px;"></a></div>
+      <dd><b></b></dd>
+      <br>
+      <br>
+      <dd><p>VEX Code is a great programming desktop application for teams.
+        This software allows students to program using a library created specifically for VEX teams.
+        VEX Code is great for both new and experienced teams.
+        We recommend checking this software out for teams looking for somewhere to write their code.
+        <br>
+        <br>
+        <a href="https://www.vexrobotics.com/vexcode-download" target="blank_">vexrobotics.com/vexcode-download</a></p>
+      </dd>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+<div style="width:80%;" class="center">
+  <h2>Our Competition Results</h2>
+  <hr>
+  </div>
+    <div class="container" id="front-app">
+        <div id="api-app"><div data-v-731375d3="">
+            <br>
+            <br>
+             <div data-v-731375d3="" class="row">
+          </option></select></div></div></div> <br data-v-b7c4c386="">
+          <div style="margin-left:10%;margin-right:10%;">
+          <h2 style="font-size: 40px;">2020-2021 Change Up</h2>
+          <base href="./ResultsCU.html">
+          <iframe src="./ResultsCU.html" style="border:0;width:100%; height: 600px;">
+          </iframe>
+        </div>
+        <div class="container" id="front-app">
+          <div id="api-app"><div data-v-731375d3="">
+              <br>
+              <br>
+               <div data-v-731375d3="" class="row">
+            </option></select></div></div></div> <br data-v-b7c4c386="">
+            <div style="margin-left:10%;margin-right:10%;">
+            <h2 style="font-size: 40px;">2019-2020 Tower Takeover</h2>
+            <iframe src="./ResultsTT.html" style="border:0;width:100%; height: 600px;">
+            </iframe>
+          </div>
+          <div class="container" id="front-app">
+            <div id="api-app"><div data-v-731375d3="">
+                <br>
+                <br>
+                 <div data-v-731375d3="" class="row">
+              </option></select></div></div></div> <br data-v-b7c4c386="">
+              <div style="margin-left:10%;margin-right:10%;">
+              <h2 style="font-size: 40px;">2018-2019 Turning Point</h2>
+              <iframe src="./ResultsTP.html" style="border:0;width:100%; height: 600px;">
+              </iframe>
+            </div>
+<br>
+<br>
 
 <div class="footer">
   <table class="center">
     <th class="footerTile">
-      <p style="color:white;">Special Thanks To</p>
-        <hr>
-        <p style="color:white;">Bosch</p>
-        <p style="color:white;">P&G</p>
+      <p>Created Using</p>
+      <hr>
+      <p>Html &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Css</p>
+      <p>Javascript &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; JQuery</p>
     </th>
+
     <th class="footerTile">
-      <a href id="#Top"><img src="Images\Vex Logo Crown PNG.png"width="150"></a>
+      <a href id="#Top"><img src="Images\Vex Logo Crown PNG.png"style="width:150px"></a>
     </th>
-    <th class="right, footerTile">
+
+    <th class="right footerTile">
       <right>
-        <a href="https://www.instagram.com/41091a_revelation/?hl=en"><img src="Images/Footer/Instagram Logo.png"width=40px></a>
-        <a href="https://www.youtube.com/channel/UC25ryb1LrXRux-kQZwXe8Sw/featured"><img src="Images/Footer/Youtube Logo.png"width=40px></a>
-        <a href="https://twitter.com/41091a?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/Footer/Twitter Logo.png"width=40px></a>
+        <a href="https://www.instagram.com/41091a_revelation/?hl=en"><img src="Images/Footer/Instagram Logo.png"></a>
+        <a href="https://www.youtube.com/channel/UC25ryb1LrXRux-kQZwXe8Sw/featured"><img src="Images/Footer/Youtube Logo.png"></a>
+        <a href="https://twitter.com/41091a?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="Images/Footer/Twitter Logo.png"></a>
+        <a href="https://github.com/michealgscarn/website"><img src="Images/Footer/Github Logo.png"></a>
       </right>
-        <hr>
-        <p class="right"style="color:white;">©2020 Revelation Robotics</p>
-        <p class="right"style="color:white;">Last Updated On 12/07/20</p>
+      <hr>
+      <p class="right">&copy;2020 Revelation Robotics</p>
+      <p class="right">Last Updated On 12/08/20</p>
     </th>
   </table>
 </div>
 
+
 <div id='navbar'></div>
 
-<div class="navbar"style="  font-weight: normal;">
-  <a href="index.html"><img src="Images\Vex Logo Crown PNG.png"class="slideInAnimation"style="width:30px; float:left"></a>
-  <a href="index.html"style="line-height:30px;">Home</a>
-  <a href="About-Us.html"style="text-align:center">About Us</a>
-  <a href="About-Vex.html"style="text-align:center">About Vex</a>
-  <a href="Community-Outreach.html"style="text-align:center">Outreach Activities</a>
-  <a href="Recognition.html"style="text-align:center">Recognition</a>
-  <a href="Media.html"style="text-align:center">Media</a>
-  <a href="Contact-Us.html"style="text-align:center">Contact Us</a>
-  <a href="Resources.html"style="text-align:center">Resources</a>
+<div class="navbar">
+  <a href="index.html"><img src="Images\Vex Logo Crown PNG.png"></a>
+  <a href="index.html">Home</a>
+  <a href="About-Us.html">About Us</a>
+  <a href="About-Vex.html">About VEX</a>
+  <a href="Community-Outreach.html">Outreach Activities</a>
+  <a href="Recognition.html">Recognition</a>
+  <a href="Media.html">Media</a>
+  <a href="Resources.html">Resources</a>
+  <a href="Contact-Us.html">Contact Us</a>
 </div>
+</body>
 
 <script src="JavaScript\Script.js"></script>
 <script src="JavaScript\SlideShow.js"></script>
-</body>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
 </html>

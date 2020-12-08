@@ -1,7 +1,0 @@
-
-# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:41091a.net
-RewriteEngine on
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP_HOST} (www\.)?41091a.net
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:41091a.net

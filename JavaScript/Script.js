@@ -12,7 +12,7 @@
 /*-----------------------------------Screen Checker and Counter--------------------------------------------*/
 
 const counters = document.querySelectorAll('.counter'); // Set up Counters
-let speed = 200; // The lower the slower
+let speed = 600; // The lower the slower
 
 function callbackFunc(entries, observer)  // Create a Callback for Element Detection on Screen
 {
